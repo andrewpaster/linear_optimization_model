@@ -57,7 +57,7 @@ For model 2, the variables, objective, and constraints are the following:
 * x<sub>i</sub> * b<sub>i</sub> >= 0.1 for all food i
 * x<sub>i</sub> <= 100 * b<sub>i</sub> for all food i
 * b<sub>broccoli</sub> + b<sub>celery</sub> <= 1
-* b<sub>i</sub> for all food i considered high in protein (meat/chicken/fish/eggs)
+* sum of b<sub>i</sub> for all food i considered high in protein (meat/chicken/fish/eggs) >= 3
 
 -----------
 
